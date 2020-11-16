@@ -12,7 +12,7 @@ class NodeSeeder extends Seeder
      */
     public function run()
     {
-        $data = config('data.nodes', []);
+        $data = config('data.nodes', []); // in data config ho salvato i dati da inserire nella tabella
 
         foreach ($data as $node) {
             Node::create($node);

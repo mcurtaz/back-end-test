@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// di default laravel aggiunge /api alle rotte in api.php. Per modificare questa impostazione RouteServiceProvider
 Route::get('/', 'ApiController@api');

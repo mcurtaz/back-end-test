@@ -16,6 +16,6 @@ class Node extends Model
 
     public $timestamps = false;
 
-    protected $primaryKey = 'idNode';
+    protected $primaryKey = 'idNode'; // cambia la chiave primaria (di default laravel si aspetta si chiami 'id')
 
 }
